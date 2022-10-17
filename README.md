@@ -4,7 +4,7 @@
 📹 Youtube Playlist With Detailed Walkthroughs on My Setup: [💻 My Dev Environment & Workflow](https://youtube.com/playlist?list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07)
 
 # Terminal Setup
-✍🏼 Blog Post: [How To Setup Your Mac Terminal](https://josean.com/posts/terminal-setup)
+✍🏼 Step-By-Step Guide: [How To Setup Your Mac Terminal](https://josean.com/posts/terminal-setup)
 
 📹 Youtube Video: [How To Make Your Boring Mac Terminal So Much Better](https://www.youtube.com/watch?v=CF1tMjvHDRA&list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07&index=2&t=479s)
 
