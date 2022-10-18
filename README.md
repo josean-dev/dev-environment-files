@@ -6,14 +6,14 @@
 # Terminal Setup
 ✍🏼 Step-By-Step Guide On My Blog: [How To Setup Your Mac Terminal](https://josean.com/posts/terminal-setup)
 
-📹 Youtube Video: [How To Make Your Boring Mac Terminal So Much Better](https://www.youtube.com/watch?v=CF1tMjvHDRA&list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07&index=2&t=479s)
+📹 Youtube: [How To Make Your Boring Mac Terminal So Much Better](https://www.youtube.com/watch?v=CF1tMjvHDRA&list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07&index=2&t=479s)
 
 ### Relevant Files
 - [.zshrc](.zshrc) - Zsh Shell Configuration
 - [coolnight.itermcolors](coolnight.itermcolors) - iTerm2 Color Scheme
 
 # Neovim Setup
-📹 Youtube: 
+📹 Youtube Step-by-Step Guide: [How I Setup Neovim On My Mac To Make It Amazing](https://youtu.be/vdn_pKJUda8)
 
 ### Requires
 - True Color Terminal Like: [iTerm2](https://iterm2.com/)
