@@ -19,6 +19,18 @@
 - True Color Terminal Like: [iTerm2](https://iterm2.com/)
 - [Neovim](https://neovim.io/) (Version 0.8 or Later)
 - [Nerd Font](https://www.nerdfonts.com/) - I use Meslo Nerd Font
+- [Ripgrep](https://github.com/BurntSushi/ripgrep) - For Telescope Fuzzy Finder
+
+You can install iTerm2, Neovim and Ripgrep with homebrew.
+```bash
+brew install --cask iterm2
+```
+```bash
+brew install neovim
+```
+```bash
+brew install ripgrep
+```
 
 ### Relevant Files
 - [.config/nvim](.config/nvim)
