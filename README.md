@@ -13,7 +13,7 @@
 - [coolnight.itermcolors](coolnight.itermcolors) - iTerm2 Color Scheme
 
 # Neovim Setup
-💡 **Pro Tip:** I highly recommend following along with me on youtube and use the repo as reference to set up the config. You'll understand everything a lot better and be able to change things and evolve the setup into your own!
+💡 **Tip:** I highly recommend following along with me on youtube and use the repo as reference to set up the config. You'll understand everything a lot better and be able to change things and evolve the setup into your own!
 
 *There's also an error with nvim-ts-autotag on first startup if you just copy the .config/nvim directory into your machine. It should be fixed if you restart nvim afterwards.*
 
