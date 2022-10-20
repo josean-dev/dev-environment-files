@@ -15,7 +15,7 @@
 # Neovim Setup
 💡 **Tip:** I highly recommend following along with me on youtube and use the repo as reference to set up the config. You'll understand everything a lot better and be able to change things and evolve the setup into your own!
 
-*There's also an error with nvim-ts-autotag on first startup if you just copy the .config/nvim directory into your machine. It should be fixed if you restart nvim afterwards.*
+*On my machine for some reason, there's also an error with nvim-ts-autotag on first startup if I just clone the repo and use the nvim config. Restarting nvim afterwards fixes it for me.*
 
 📹 Youtube Step-by-Step Guide: [How I Setup Neovim On My Mac To Make It Amazing](https://youtu.be/vdn_pKJUda8)
 
