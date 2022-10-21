@@ -15,7 +15,7 @@
 # Neovim Setup
 💡 **Tip:** I highly recommend following along with me on youtube and use the repo as reference to set up the config. You'll understand everything a lot better and be able to change things and evolve the setup into your own!
 
-*If you clone the repo into your machine and use the config by copying .config/nvim to your home folder, you'll have to restart neovim after the plugins install.*
+*If you clone the repo into your machine and use the config by copying .config/nvim to your home folder, you'll have to restart neovim after the plugins install. After restart, if you are opening a lua file or another file I have language servers configured for, like html, css or javascript/typescript. You might also get an error saying that the server failed to start. This is because Mason hasn't installed it yet. Press enter to continue, Mason will automatically install it and you should be good to go.*
 
 📹 Youtube Step-by-Step Guide: [How I Setup Neovim On My Mac To Make It Amazing](https://youtu.be/vdn_pKJUda8)
 
