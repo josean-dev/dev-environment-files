@@ -13,9 +13,9 @@
 - [coolnight.itermcolors](coolnight.itermcolors) - iTerm2 Color Scheme
 
 # Tmux Setup
-✍🏼 Blog Post: [How I Setup And Use Tmux Alongside Neovim for an Awesome Dev Workflow](https://josean.com/posts/tmux-setup)
+✍🏼 Blog Post: [How To Use and Configure Tmux Alongside Neovim](https://josean.com/posts/tmux-setup)
 
-📹 Youtube Guide: (https://youtu.be/U-omALWIBos)
+📹 Youtube Guide: [How I Setup And Use Tmux Alongside Neovim for an Awesome Dev Workflow](https://youtu.be/U-omALWIBos)
 
 ### Relevant Files
 - [.tmux.conf](.tmux.conf) - Tmux Configuration File
