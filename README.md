@@ -12,6 +12,14 @@
 - [.zshrc](.zshrc) - Zsh Shell Configuration
 - [coolnight.itermcolors](coolnight.itermcolors) - iTerm2 Color Scheme
 
+# Tmux Setup
+✍🏼 Blog Post: [How To Use and Configure Tmux Alongside Neovim](https://josean.com/posts/tmux-setup)
+
+📹 Youtube Guide: [How I Setup And Use Tmux Alongside Neovim for an Awesome Dev Workflow](https://youtu.be/U-omALWIBos)
+
+### Relevant Files
+- [.tmux.conf](.tmux.conf) - Tmux Configuration File
+
 # Neovim Setup
 💡 **Tip:** I highly recommend following along with me on youtube and use the repo as reference to set up the config. You'll understand everything a lot better and be able to change things and evolve the setup into your own!
 
