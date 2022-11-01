@@ -31,7 +31,7 @@
 I updated treesitter recently and ran into an issue with my lua file syntax highlighting. It seems
 that the homebrew install of neovim includes a lua parser that was no longer compatible.
 
-I found the solution here: https://github.com/nvim-treesitter/nvim-treesitter.
+I found the solution here: https://github.com/nvim-treesitter/nvim-treesitter/issues/3092.
 
 According to the solution, I ran the following:
 
@@ -45,7 +45,7 @@ And according to the output had to remove the lua parser from the homebrew insta
 rm -rf /opt/homebrew/Cellar/neovim/0.8.0/lib/nvim/parser/lua.so
 ```
 
-### Requires
+### Setup Requires
 - True Color Terminal Like: [iTerm2](https://iterm2.com/)
 - [Neovim](https://neovim.io/) (Version 0.8 or Later)
 - [Nerd Font](https://www.nerdfonts.com/) - I use Meslo Nerd Font
