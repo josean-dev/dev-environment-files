@@ -48,9 +48,11 @@ brew install ripgrep
 ### Relevant Files
 - [.config/nvim](.config/nvim)
 
-### Issue I Encountered with Treesitter Update and Lua Syntax Highlighting
-I updated treesitter recently and ran into an issue with my lua file syntax highlighting.
-I found a solution here: https://github.com/nvim-treesitter/nvim-treesitter.
+### Issue I Encountered with Treesitter and Lua Syntax Highlighting
+I updated treesitter recently and ran into an issue with my lua file syntax highlighting. It seems
+that the homebrew install of neovim includes a lua parser that was no longer compatible.
+
+I found the solution here: https://github.com/nvim-treesitter/nvim-treesitter.
 
 According to the solution, I ran the following:
 
@@ -58,7 +60,8 @@ According to the solution, I ran the following:
 :echo nvim_get_runtime_file('*/lua.so', v:true)
 ```
 
-And according to the output had to remove this directory:
+And according to the output had to remove the lua parser from the homebrew install like so:
+
 ```bash
 rm -rf /opt/homebrew/Cellar/neovim/0.8.0/lib/nvim/parser/lua.so
 ```
