@@ -28,7 +28,7 @@
 📹 Youtube Step-by-Step Guide: [How I Setup Neovim On My Mac To Make It Amazing](https://youtu.be/vdn_pKJUda8)
 
 ### Issue with Nvim-Treesitter Update and Built-In Lua Parser
-I updated "nvim-treesitter" recently and ran into an issue with lua file syntax highlighting. 
+I updated "nvim-treesitter" recently and ran into an issue with lua syntax highlighting. 
 
 It seems that the homebrew install of neovim 0.8 includes a built-in lua parser that is no longer compatible with the latest version of "nvim-treesitter". By default, "nvim-treesitter" will try to use this parser instead of installing the lua parser that is available through "nvim-treesitter" itself and thus throw an error.
 
