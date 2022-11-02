@@ -28,10 +28,11 @@
 📹 Youtube Step-by-Step Guide: [How I Setup Neovim On My Mac To Make It Amazing](https://youtu.be/vdn_pKJUda8)
 
 ### Issue with Nvim-Treesitter Update and Built-In Lua Parser
-I updated nvim-treesitter recently and ran into an issue with my lua file syntax highlighting through treesitter. It seems
-that the homebrew install of neovim 0.8 includes a lua parser that is no longer compatible with the latest version of nvim-treesitter. By default nvim-treesitter will try to use this parser instead of installing the lua parser that is available through nvim-treesitter and thus throw an error.
+I updated "nvim-treesitter" recently and ran into an issue with lua file syntax highlighting. 
 
-I had to manually install the latest lua parser manually through nvim-treesitter so that it would use this parser instead of the one that comes built into neovim by running the following within neovim:
+It seems that the homebrew install of neovim 0.8 includes a built-in lua parser that is no longer compatible with the latest version of "nvim-treesitter". By default, "nvim-treesitter" will try to use this parser instead of installing the lua parser that is available through "nvim-treesitter" itself and thus throw an error.
+
+I had to manually install the latest lua parser available through "nvim-treesitter" manually so that it would use this parser instead of the one that comes built into neovim by executing the following within neovim:
 
 ```bash
 :TSInstall lua
@@ -46,7 +47,7 @@ It will ask if you would like to reinstall the parser. Answer "y" for yes. After
 - [Ripgrep](https://github.com/BurntSushi/ripgrep) - For Telescope Fuzzy Finder
 - If working with typescript/javascript and the typescript language server like me. You might need to install node.
 
-If you're on mac, like me, you can install iTerm2, Neovim and Ripgrep with homebrew.
+If you're on mac, like me, you can install iTerm2, Neovim, Ripgrep and Node with homebrew.
 ```bash
 brew install --cask iterm2
 ```
@@ -55,6 +56,9 @@ brew install neovim
 ```
 ```bash
 brew install ripgrep
+```
+```bash
+brew install node
 ```
 
 ### Relevant Files
