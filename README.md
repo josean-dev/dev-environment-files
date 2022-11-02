@@ -33,13 +33,7 @@ that the homebrew install of neovim includes a lua parser that is no longer comp
 
 I found the solution here: https://github.com/nvim-treesitter/nvim-treesitter/issues/3092.
 
-According to the solution, I ran the following:
-
-```bash
-:echo nvim_get_runtime_file('*/lua.so', v:true)
-```
-
-And according to the output, I had to remove the built-in lua parser from the homebrew install of neovim like so:
+I had to remove the built-in lua parser from the homebrew install of neovim like so:
 
 ```bash
 rm -rf /opt/homebrew/Cellar/neovim/0.8.0/lib/nvim/parser/lua.so
