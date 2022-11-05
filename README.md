@@ -23,18 +23,31 @@
 # Neovim Setup
 💡 **Tip:** I highly recommend following along with me on youtube and use the repo as reference to set up the config. You'll understand everything a lot better and be able to change things and evolve the setup into your own!
 
-*If you clone the repo into your machine and use the config by copying .config/nvim to your home folder, you'll have to restart neovim after the plugins install. After restart, if you are opening a lua file or another file I have language servers configured for, like html, css or javascript/typescript, you might also get an error saying that the server failed to start. This is because Mason hasn't installed it yet. Press enter to continue, Mason will automatically install it and you should be good to go.*
+*If you clone the repo into your machine and use the config by copying .config/nvim to your home folder, you'll have to restart neovim after the plugins install. After restart, if you are opening a lua file or another file I have language servers configured for, like html, css or javascript/typescript, you might also get an error saying that the server failed to start. This is because Mason hasn't installed it yet. Press enter to continue, Mason will automatically install it.*
 
 📹 Youtube Step-by-Step Guide: [How I Setup Neovim On My Mac To Make It Amazing](https://youtu.be/vdn_pKJUda8)
 
-### Requires
+### Issue with Nvim-Treesitter Update and Lua Parser
+I updated "nvim-treesitter" recently and ran into an issue with lua syntax highlighting. 
+
+It seems that the homebrew install of neovim 0.8 includes a built-in lua parser that is no longer compatible with the latest version of "nvim-treesitter". By default, "nvim-treesitter" will try to use this parser instead of installing the lua parser that is available through "nvim-treesitter" itself and thus throw an error.
+
+I had to manually install the latest lua parser available through "nvim-treesitter" so that it would use this parser instead of the one that comes built into neovim by executing the following within neovim:
+
+```bash
+:TSInstall lua
+```
+
+It will ask if you would like to reinstall the parser. Answer "y" for yes. After that is finished, restart neovim and the problem should be fixed.
+
+### Setup Requires
 - True Color Terminal Like: [iTerm2](https://iterm2.com/)
 - [Neovim](https://neovim.io/) (Version 0.8 or Later)
 - [Nerd Font](https://www.nerdfonts.com/) - I use Meslo Nerd Font
 - [Ripgrep](https://github.com/BurntSushi/ripgrep) - For Telescope Fuzzy Finder
 - If working with typescript/javascript and the typescript language server like me. You might need to install node.
 
-If you're on mac, like me, you can install iTerm2, Neovim and Ripgrep with homebrew.
+If you're on mac, like me, you can install iTerm2, Neovim, Ripgrep and Node with homebrew.
 ```bash
 brew install --cask iterm2
 ```
@@ -43,6 +56,9 @@ brew install neovim
 ```
 ```bash
 brew install ripgrep
+```
+```bash
+brew install node
 ```
 
 ### Relevant Files
