@@ -45,6 +45,7 @@ It will ask if you would like to reinstall the parser. Answer "y" for yes. After
 - [Neovim](https://neovim.io/) (Version 0.8 or Later)
 - [Nerd Font](https://www.nerdfonts.com/) - I use Meslo Nerd Font
 - [Ripgrep](https://github.com/BurntSushi/ripgrep) - For Telescope Fuzzy Finder
+- XCode Command Line Tools
 - If working with typescript/javascript and the typescript language server like me. You might need to install node.
 
 If you're on mac, like me, you can install iTerm2, Neovim, Ripgrep and Node with homebrew.
@@ -59,6 +60,11 @@ brew install ripgrep
 ```
 ```bash
 brew install node
+```
+
+For XCode Command Line Tools do:
+```bash
+xcode-select --install
 ```
 
 ### Relevant Files
