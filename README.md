@@ -27,16 +27,8 @@
 
 📹 Youtube Step-by-Step Guide: [How I Setup Neovim On My Mac To Make It Amazing](https://youtu.be/vdn_pKJUda8)
 
-### Issue with Nvim-Treesitter Update and Lua Parser
-The homebrew install of neovim 0.8 includes a built-in lua parser that is no longer compatible with the latest version of "nvim-treesitter".
-
-To fix it, after opening Neovim do this:
-
-```bash
-:TSInstall lua
-```
-
-It will ask if you would like to reinstall the parser. Answer "y" for yes. After that is finished, restart neovim and the problem should be fixed.
+### Relevant Files
+- [.config/nvim](.config/nvim)
 
 ### Setup Requires
 - True Color Terminal Like: [iTerm2](https://iterm2.com/)
@@ -65,8 +57,17 @@ For XCode Command Line Tools do:
 xcode-select --install
 ```
 
-### Relevant Files
-- [.config/nvim](.config/nvim)
+### Issue with Nvim-Treesitter Update and Lua Parser
+The homebrew install of neovim 0.8 includes a built-in lua parser that is no longer compatible with the latest version of "nvim-treesitter".
+
+To fix it, after opening Neovim do this:
+
+```bash
+:TSInstall lua
+```
+
+It will ask if you would like to reinstall the parser. Answer "y" for yes. After that is finished, restart neovim and the problem should be fixed.
+
 
 ## Plugins
 #### Plugin Manager
