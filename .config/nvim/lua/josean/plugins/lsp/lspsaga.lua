@@ -6,7 +6,7 @@ end
 
 saga.init_lsp_saga({
   -- keybinds for navigation in lspsaga window
-  move_in_saga = { prev = "<C-p>", next = "<C-n>" },
+  move_in_saga = { prev = "<C-k>", next = "<C-j>" },
   -- use enter to open file with finder
   finder_action_keys = {
     open = "<CR>",
