@@ -57,17 +57,8 @@ For XCode Command Line Tools do:
 xcode-select --install
 ```
 
-### Issue with Nvim-Treesitter Update and Lua Parser
-The homebrew install of neovim 0.8 includes a built-in lua parser that is no longer compatible with the latest version of "nvim-treesitter".
-
-To fix it, after opening Neovim do this:
-
-```bash
-:TSInstall lua
-```
-
-It will ask if you would like to reinstall the parser. Answer "y" for yes. After that is finished, restart neovim and the problem should be fixed.
-
+### Issue with Nvim-Treesitter Updates
+When nvim-treesitter updates, there might be breaking changes to corresponding parsers being used. I've made a change to how nvim-treesitter is installed with packer and the run command to make sure parsers are properly updated whenever necessary. It was missing something before. You can look at the change here: de7061dd5373100c2c1dccb1f759ad350a5cf88a.
 
 ## Plugins
 #### Plugin Manager
