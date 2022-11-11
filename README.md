@@ -58,7 +58,7 @@ xcode-select --install
 ```
 
 ### Nvim-Treesitter Updates
-When nvim-treesitter updates, there might be breaking changes to corresponding parsers being used. I've made a change to how nvim-treesitter is installed with packer and the "run" command to make sure parsers are properly updated whenever nvim-treesitter is installed or updated. The code is found in this file: [plugins-setup.lua](.config/nvim/plugins-setup.lua)
+When nvim-treesitter updates, there might be breaking changes to corresponding parsers being used. I made a change to make sure parsers are automatically updated whenever nvim-treesitter is installed/updated. The code is found in this file: [plugins-setup.lua](.config/nvim/lua/josean/plugins-setup.lua)
 
 The updated code is this:
 ```lua
