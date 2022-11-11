@@ -57,10 +57,20 @@ For XCode Command Line Tools do:
 xcode-select --install
 ```
 
-### Issue with Nvim-Treesitter Updates
-When nvim-treesitter updates, there might be breaking changes to corresponding parsers being used. I've made a change to how nvim-treesitter is installed with packer and the run command to make sure parsers are properly updated whenever necessary. It was missing something before. 
+### Nvim-Treesitter Updates
+When nvim-treesitter updates, there might be breaking changes to corresponding parsers being used. I've made a change to how nvim-treesitter is installed with packer and the "run" command to make sure parsers are properly updated whenever nvim-treesitter is installed or updated. The code is found in this file: [plugins-setup.lua](.config/nvim/plugins-setup.lua)
 
-You can look at the change here: de7061dd5373100c2c1dccb1f759ad350a5cf88a
+The updated code is this:
+```lua
+use({
+    "nvim-treesitter/nvim-treesitter",
+    run = function()
+      local ts_update = require("nvim-treesitter.install").update({ with_sync = true })
+      ts_update()
+    end,
+  })
+
+```
 
 ## Plugins
 #### Plugin Manager
