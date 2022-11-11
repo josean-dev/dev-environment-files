@@ -58,7 +58,9 @@ xcode-select --install
 ```
 
 ### Issue with Nvim-Treesitter Updates
-When nvim-treesitter updates, there might be breaking changes to corresponding parsers being used. I've made a change to how nvim-treesitter is installed with packer and the run command to make sure parsers are properly updated whenever necessary. It was missing something before. You can look at the change here: de7061dd5373100c2c1dccb1f759ad350a5cf88a.
+When nvim-treesitter updates, there might be breaking changes to corresponding parsers being used. I've made a change to how nvim-treesitter is installed with packer and the run command to make sure parsers are properly updated whenever necessary. It was missing something before. 
+
+You can look at the change here: de7061dd5373100c2c1dccb1f759ad350a5cf88a
 
 ## Plugins
 #### Plugin Manager
