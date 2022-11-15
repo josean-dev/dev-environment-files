@@ -41,7 +41,7 @@ return packer.startup(function(use)
 
   -- essential plugins
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
-  use("vim-scripts/ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
+  use("inkarkat/vim-ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
 
   -- commenting with gc
   use("numToStr/Comment.nvim")
@@ -50,7 +50,7 @@ return packer.startup(function(use)
   use("nvim-tree/nvim-tree.lua")
 
   -- vs-code like icons
-  use("kyazdani42/nvim-web-devicons")
+  use("nvim-tree/nvim-web-devicons")
 
   -- statusline
   use("nvim-lualine/lualine.nvim")

@@ -5,7 +5,7 @@ if not setup then
 end
 
 -- recommended settings from nvim-tree documentation
-vim.g.loaded = 1
+vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 -- change color for arrows in tree to light blue
@@ -34,7 +34,7 @@ nvimtree.setup({
       },
     },
   },
--- 	git = {
--- 		ignore = false,
--- 	},
+  -- 	git = {
+  -- 		ignore = false,
+  -- 	},
 })
