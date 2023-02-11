@@ -22,6 +22,7 @@
 
 # Yabai Tiling Window Manager Setup
 ✍🏼 Blog Post: [How To Setup And Use The Yabai Tiling Window Manager On Mac](https://josean.com/posts/yabai-setup)
+
 📹 Youtube Guide: [How To Setup And Use The Yabai Tiling Window Manager On Mac](#)
 
 ### Relevant Files
