@@ -1,5 +1,5 @@
 return {
-  "lewis6991/gitsigns.nvim",
+  "NvChad/nvim-colorizer.lua",
   event = { "BufReadPre", "BufNewFile" },
   config = true,
 }
