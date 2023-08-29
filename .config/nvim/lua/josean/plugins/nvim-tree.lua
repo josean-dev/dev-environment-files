@@ -14,7 +14,7 @@ return {
     -- configure nvim-tree
     nvimtree.setup({
       view = {
-        width = 60,
+        width = 45,
       },
       -- change folder arrow icons
       renderer = {
