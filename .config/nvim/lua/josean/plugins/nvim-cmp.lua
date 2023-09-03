@@ -16,6 +16,13 @@ return {
 
     local lspkind = require("lspkind")
 
+    -- load the cmp-path source for file path autocompletion
+    require("cmp").setup({
+      sources = {
+        { name = "path" },
+      },
+    })
+
     -- loads vscode style snippets from installed plugins (e.g. friendly-snippets)
     require("luasnip.loaders.from_vscode").lazy_load()
 
