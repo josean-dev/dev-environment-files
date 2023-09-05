@@ -44,7 +44,7 @@ If you are coming from my full neovim setup video with packer, that config is fo
 
 📹 Packer Full Neovim Setup Guide: [How I Setup Neovim On My Mac To Make It Amazing](https://youtu.be/vdn_pKJUda8)
 
-📹 lazy.nvim Neovim Guide: [How To Use lazy.nvim for an Amazing And Simple Neovim Config](https://youtu.be/vdn_pKJUda8)
+📹 lazy.nvim Neovim Guide: [How To Use lazy.nvim for an Amazing And Simple Neovim Config](https://youtu.be/6mxWayq-s9I)
 
 _If you clone the repo into your machine and use the config by copying .config/nvim to your home folder, wait for the plugins, language servers and parsers to install with lazy.nvim, Mason and nvim-treesitter. If you are opening a lua file or another file I have language servers configured for, like html, css or javascript/typescript, you might also get an error saying that the server failed to start. This is because Mason hasn't installed it yet. Press enter to continue, Mason will automatically install it._
 
