@@ -168,8 +168,9 @@ xcode-select --install
 
 #### Formatting & Linting
 
-- [jose-elias-alvarez/null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) - Easy way to configure formatters & linters
-- [jayp0521/mason-null-ls.nvim](https://github.com/jayp0521/mason-null-ls.nvim) - Bridges gap b/w mason & null-ls
+- [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim) - Easy way to configure formatters
+- [mfussenegger/nvim-lint](https://github.com/mfussenegger/nvim-lint) - Easy way to configure linters
+- [WhoIsSethDaniel/mason-tool-installer.nvim](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim) - Auto install linters & formatters on startup
 
 #### Syntax Highlighting & Autoclosing Things
 
