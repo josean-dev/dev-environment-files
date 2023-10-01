@@ -77,7 +77,8 @@ return {
       })
     end
 
-    lspconfig.setup_handlers({
+    local mason_lspconfig = require("mason-lspconfig")
+    mason_lspconfig.setup_handlers({
       function(server_name)
         default_handler(server_name, capabilities)
       end,
