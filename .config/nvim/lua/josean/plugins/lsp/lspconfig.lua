@@ -70,30 +70,26 @@ return {
       vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
     end
 
-    -- configure html server
-    lspconfig["html"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
+    -- configure list of servers with default configs
+    local servers = {
+      "html",
+      "tsserver",
+      "cssls",
+      "tsserver",
+      "tailwindcss",
+      "prismals",
+      "pyright",
+    }
 
-    -- configure typescript server with plugin
-    lspconfig["tsserver"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
+    for _, lsp in ipairs(servers) do
+      lspconfig[lsp].setup({
+        capabilities = capabilities,
+        on_attach = on_attach,
+      })
+    end
 
-    -- configure css server
-    lspconfig["cssls"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
-
-    -- configure tailwindcss server
-    lspconfig["tailwindcss"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
-
+    -- Here the servers with custom configs.
+    --
     -- configure svelte server
     lspconfig["svelte"].setup({
       capabilities = capabilities,
@@ -111,12 +107,6 @@ return {
       end,
     })
 
-    -- configure prisma orm server
-    lspconfig["prismals"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
-
     -- configure graphql language server
     lspconfig["graphql"].setup({
       capabilities = capabilities,
@@ -129,12 +119,6 @@ return {
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
-    })
-
-    -- configure python server
-    lspconfig["pyright"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
     })
 
     -- configure lua server (with special settings)
