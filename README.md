@@ -39,6 +39,7 @@
 # Sketchybar Custom Menu Bar Setup
 
 ✍🏼 Blog Post: [How To Make An Amazing Custom Menu Bar For Your Mac With Sketchybar](https://josean.com/posts/sketchybar-setup)
+
 📹 Youtube Guide: [How To Make An Amazing Custom Menu Bar For Your Mac With Sketchybar](https://youtu.be/k94qImbFKWE)
 
 ### Setup Requires
