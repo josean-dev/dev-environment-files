@@ -1,7 +1,6 @@
 return {
   "stevearc/conform.nvim",
-  lazy = true,
-  event = { "BufReadPre", "BufNewFile" }, -- to disable, comment this out
+  event = { "BufReadPre", "BufNewFile" },
   config = function()
     local conform = require("conform")
 
@@ -18,6 +17,7 @@ return {
         yaml = { "prettier" },
         markdown = { "prettier" },
         graphql = { "prettier" },
+        liquid = { "prettier" },
         lua = { "stylua" },
         python = { "isort", "black" },
       },
