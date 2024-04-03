@@ -64,11 +64,11 @@
 
 If you are coming from my full neovim setup video with packer, that config is found here: [Packer Config](https://github.com/josean-dev/dev-environment-files/tree/packer-nvim-setup)
 
-📹 Packer Full Neovim Setup Guide: [How I Setup Neovim On My Mac To Make It Amazing](https://youtu.be/vdn_pKJUda8)
+✍🏼 Blog Post: [How I Setup Neovim On My Mac To Make It AMAZING In 2024](https://josean.com/posts/how-to-setup-neovim-2024)
+📹 Complete Neovim Setup Guide: [How I Setup Neovim On My Mac To Make It AMAZING In 2024](https://youtu.be/6pAG3BHurdM)
 
-📹 lazy.nvim Neovim Guide: [How To Use lazy.nvim for an Amazing And Simple Neovim Config](https://youtu.be/6mxWayq-s9I)
-
-_If you clone the repo into your machine and use the config by copying .config/nvim to your home folder, wait for the plugins, language servers and parsers to install with lazy.nvim, Mason and nvim-treesitter. If you are opening a lua file or another file I have language servers configured for, like html, css or javascript/typescript, you might also get an error saying that the server failed to start. This is because Mason hasn't installed it yet. Press enter to continue, Mason will automatically install it._
+_If you clone the repo into your machine and use the config by copying .config/nvim to your home folder, wait for the plugins, language servers and parsers to install with lazy.nvim, Mason and nvim-treesitter.
+If you are opening a lua file or another file I have language servers configured for, like html, css or javascript/typescript, you might also get an error saying that the server failed to start. This is because Mason hasn't installed it yet. Press enter to continue, Mason will automatically install it._
 
 ### Relevant Files
 
@@ -81,21 +81,36 @@ _If you clone the repo into your machine and use the config by copying .config/n
 - [Nerd Font](https://www.nerdfonts.com/) - I use Meslo Nerd Font
 - [Ripgrep](https://github.com/BurntSushi/ripgrep) - For Telescope Fuzzy Finder
 - XCode Command Line Tools
-- If working with typescript/javascript and the typescript language server like me. You might need to install node.
+- If working with typescript/javascript and the typescript language server like me. You might need to install node/npm.
 
-If you're on mac, like me, you can install iTerm2, Neovim, Ripgrep and Node with homebrew.
+If you're on mac, like me, you can install iTerm2, Neovim, Meslo Nerd Font, Ripgrep and Node with homebrew.
+
+iTerm2:
 
 ```bash
 brew install --cask iterm2
 ```
 
+Nerd font:
+
+```bash
+brew tap homebrew/cask-fonts
+brew install font-meslo-lg-nerd-font
+```
+
+Neovim:
+
 ```bash
 brew install neovim
 ```
 
+Ripgrep:
+
 ```bash
 brew install ripgrep
 ```
+
+Node/Npm:
 
 ```bash
 brew install node
@@ -119,16 +134,16 @@ xcode-select --install
 
 #### Preferred Colorscheme
 
-- [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors)
+- [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - tokyonight colorscheme (I modified some colors it in config)
 
 #### Navigating Between Neovim Windows and Tmux
 
-- [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+- [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) - navigate b/w nvim splits & tmux panes with CTRL+h,j,k,l
 
 #### Essentials
 
-- [tpope/vim-surround](https://github.com/tpope/vim-surround) - manipulate surroundings with "ys", "ds", and "cs"
-- [vim-scripts/ReplaceWithRegister](https://github.com/vim-scripts/ReplaceWithRegister) - replace things with register with "gr"
+- [kylechui/nvim-surround](https://github.com/kylechui/nvim-surround) - manipulate surroundings with "ys", "ds", and "cs"
+- [gbprod/substitute.nvim](https://github.com/gbprod/substitute.nvim) - replace things with register with "s" and "S"
 
 #### File Explorer
 
@@ -140,29 +155,29 @@ xcode-select --install
 
 #### Neovim Greeter
 
-- [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim)
+- [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) -- neovim greeter on startup
 
-#### Status Line
+#### Auto Sessions
 
-- [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- [rmagatti/auto-session](https://github.com/rmagatti/auto-session) - auto save neovim sessions/restore with keymap
 
-#### Buffer Line
+#### Statusline
 
-- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
+- [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Better statusline
+
+#### Bufferline
+
+- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - Better looking tabs
 
 #### Keymap Suggestions
 
-- [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
+- [folke/which-key.nvim](https://github.com/folke/which-key.nvim) - Get suggested keymaps as you type
 
 #### Fuzzy Finder
 
 - [nvim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) - Dependency for better performance
 - [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy Finder
 - [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) - select/input ui improvement
-
-#### Marking Files With Prime's Harpoon
-
-- [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon)
 
 #### Autocompletion
 
@@ -179,13 +194,17 @@ xcode-select --install
 
 #### Managing & Installing Language Servers, Linters & Formatters
 
-- [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
+- [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) - Install language servers, formatters and linters
 
 #### LSP Configuration
 
 - [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim) - Bridges gap b/w mason & lspconfig
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Easy way to configure lsp servers
 - [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) - Smart code autocompletion with lsp
+
+#### Trouble.nvim
+
+- [folke/trouble.nvim](https://github.com/folke/trouble.nvim) - nice way to see diagnostics and other stuff
 
 #### Formatting & Linting
 
@@ -197,6 +216,7 @@ xcode-select --install
 
 - [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) - toggle comments with "gc"
 - [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) - Requires treesitter
+- [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - highlight/search for comments like todo/hack/bug
 
 #### Treesitter Syntax Highlighting, Autoclosing & Text Objects
 
@@ -205,6 +225,11 @@ xcode-select --install
 - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) - Autoclose brackets, parens, quotes, etc...
 - [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Autoclose tags
 
+#### Indent Guides
+
+- [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) - Indent guides with treesitter integration
+
 #### Git
 
-- [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Show line modifications on left hand side
+- [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Show modifications on left hand side and interact with git hunks
+- [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) - Use lazygit within Neovim
