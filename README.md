@@ -12,7 +12,7 @@
 
 You'll also need to install extra cli tools as described in this blog post and video:
 
-✍🏼 Blog ost: [7 Amazing CLI Tools You Won't Be Able To Live Without](https://josean.com/7-amazing-cli-tools)
+✍🏼 Blog Post : [7 Amazing CLI Tools You Won't Be Able To Live Without](https://josean.com/7-amazing-cli-tools)
 📹 Youtube Video: [7 Amazing CLI Tools You Won't Be Able To Live Without](https://www.youtube.com/mmqDYw9C30I)
 
 - [fzf](https://github.com/junegunn/fzf.git)
