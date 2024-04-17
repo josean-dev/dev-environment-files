@@ -1,0 +1,21 @@
+import = [
+    "~/.config/alacritty/themes/themes/josean.toml"
+]
+
+[ env ]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 10
+padding.y = 10
+
+decorations = "Buttonless"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+
+#regular
+size = 24
+
+#for video
+# size = 35.0
