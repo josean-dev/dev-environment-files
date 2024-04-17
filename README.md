@@ -10,7 +10,19 @@
 
 📹 Youtube Guide: [How To Make Your Boring Mac Terminal So Much Better](https://www.youtube.com/watch?v=CF1tMjvHDRA&list=PLnu5gT9QrFg36OehOdECFvxFFeMHhb_07&index=2&t=479s)
 
-You'll also need to install extra cli tools from:
+You'll also need to install extra cli tools as described in this blog post and video:
+
+✍🏼 Blog Pst: [7 Amazing CLI Tools You Won't Be Able To Live Without](https://josean.com/7-amazing-cli-tools)
+📹 Youtube Video: [7 Amazing CLI Tools You Won't Be Able To Live Without](https://www.youtube.com/mmqDYw9C30I)
+
+- [fzf](https://github.com/junegunn/fzf.git)
+- [fd](https://github.com/sharkdp/fd)
+- [fzf-git](https://github.com/junegunn/fzf-git.sh)
+- [bat](https://github.com/sharkdp/bat)
+- [delta](https://github.com/dandavison/delta)
+- [eza](https://github.com/eza-community/eza.git)
+- [tldr](https://github.com/tldr-pages/tldr)
+- [thefuck](https://github.com/nvbn/thefuck)
 
 ### Relevant Files
 
