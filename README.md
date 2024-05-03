@@ -28,7 +28,7 @@ You'll also need to install extra cli tools as described in this blog post and v
 ### Relevant Files
 
 - [.zshrc](.zshrc) - Zsh Shell Configuration
-- [coolnight.itermcolors](coolnight.itermcolors) - iTerm2 Color Scheme
+- [coolnight.toml](.config/alacritty/themes/themes/coolnight.toml) - Alacritty Color Scheme
 
 # Tmux Setup
 
