@@ -6,9 +6,9 @@
 
 # Terminal Setup
 
-✍🏼 Blog Post Step-by-Step Guide: [How To Create An Amazing Mac Terminal Setup w/ Alacritty](https://josean.com/posts/how-to-setup-alacritty-terminal)
+🏼 ✍Blog Post Step-by-Step Guide: [How To Make Your Boring Mac Terminal Amazing With Alacritty](https://josean.com/posts/how-to-setup-alacritty-terminal)
 
-📹 Youtube Guide: [How To Create An Amazing Mac Terminal Setup w/ Alacritty](https://youtu.be/uOnL4fEnldA)
+📹 Youtube Guide: [How To Make Your Boring Mac Terminal Amazing With Alacritty](https://youtu.be/uOnL4fEnldA)
 
 You'll also need to install extra cli tools as described in this blog post and video:
 
