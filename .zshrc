@@ -98,7 +98,7 @@ export BAT_THEME=tokyonight_night
 
 # ---- Eza (better ls) -----
 
-alias ls="eza --color=always --long --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias ls="eza --icons=always"
 
 # ---- TheFuck -----
 
