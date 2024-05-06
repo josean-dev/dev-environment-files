@@ -6,6 +6,9 @@
 
 # Terminal Setup
 
+After recommendations from you guys, I've swapped out Alacritty for [WezTerm](https://wezfurlong.org/wezterm/index.html)!
+Everything is the same except the Alacritty config file, you can swap it out with this [~/.wezterm.lua](.wezterm.lua) file and everything should look and work very similar to Alacritty!
+
 🏼 ✍Blog Post Step-by-Step Guide: [How To Make Your Boring Mac Terminal Amazing With Alacritty](https://josean.com/posts/how-to-setup-alacritty-terminal)
 
 📹 Youtube Guide: [How To Make Your Boring Mac Terminal Amazing With Alacritty](https://youtu.be/uOnL4fEnldA)
