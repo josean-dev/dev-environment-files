@@ -6,6 +6,7 @@ local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices
 
+-- my coolnight colorscheme
 config.colors = {
 	foreground = "#CBE0F0",
 	background = "#011423",
