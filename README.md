@@ -54,6 +54,16 @@ You'll also need to install extra cli tools as described in this blog post and v
 - [.config/yabai/yabairc](.config/yabai/yabairc)
 - [.config/skhd/skhdrc](.config/skhd/skhdrc)
 
+# Aerospace Tiling Window Manager Setup
+
+✍🏼 Blog Post: [How To Setup And Use The Aerospace Tiling Window Manager On macOS](https://josean.com/posts/how-to-setup-aerospace-tiling-window-manager)
+
+📹 Youtube Guide: [How To Setup And Use The Aerospace Tiling Window Manager On macOS](https://youtu.be/-FoWClVHG5g)
+
+### Relevant Files
+
+- [.config/aerospace/aerospace.toml](.config/aerospace/aerospace.toml)
+
 # Sketchybar Custom Menu Bar Setup
 
 ✍🏼 Blog Post: [How To Make An Amazing Custom Menu Bar For Your Mac With Sketchybar](https://josean.com/posts/sketchybar-setup)
