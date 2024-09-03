@@ -26,7 +26,7 @@ return {
       lint.try_lint()
     end, { desc = "Trigger linting for current file" })
     
-    require('lint').linters.pylint.cmd = 'python'
-    require('lint').linters.pylint.args = {'-m', 'pylint', '-f', 'json'}    
+    lint.linters.pylint.cmd = 'python'
+    lint.linters.pylint.args = {'-m', 'pylint', '-f', 'json'}    
   end,
 }
