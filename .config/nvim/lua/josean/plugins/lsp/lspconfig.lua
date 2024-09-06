@@ -87,7 +87,6 @@ return {
         end
         local capabilities = require("cmp_nvim_lsp").default_capabilities()
         require("lspconfig")[server_name].setup({
-
           capabilities = capabilities,
         })
 
