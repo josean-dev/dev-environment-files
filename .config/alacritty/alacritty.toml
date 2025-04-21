@@ -1,8 +1,8 @@
 import = [
-    "~/.config/alacritty/themes/themes/coolnight.toml"
+  "~/.config/alacritty/themes/themes/coolnight.toml"
 ]
 
-[ env ]
+[env]
 TERM = "xterm-256color"
 
 [window]
@@ -11,11 +11,12 @@ padding.y = 10
 
 decorations = "Buttonless"
 
+opacity = 0.8
+blur = true 
+
+option_as_alt = "Both"
+
 [font]
 normal.family = "MesloLGS Nerd Font Mono"
 
-#regular
-size = 24
-
-#for video
-# size = 35.0
+size = 18
