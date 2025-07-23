@@ -125,3 +125,4 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
