@@ -74,6 +74,8 @@ return {
       },
     })
 
+    vim.lsp.inlay_hint.enable()
+
     vim.lsp.config("*", {
       capabilities = capabilities,
     })
