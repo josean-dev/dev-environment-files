@@ -7,8 +7,11 @@ keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
 -- increment/decrement numbers
-keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" }) -- increment
-keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement number" }) -- decrement
+keymap.set({ "n", "x" }, "<leader>+", "<C-a>", { desc = "Increment number" }) -- increment
+keymap.set({ "n", "x" }, "<leader>-", "<C-x>", { desc = "Decrement number" }) -- decrement
+-- increment/decrement numbers sequentially across multiple lines ("0\n0\n0" -> "1\n2\n3")
+keymap.set("x", "g+", "g<C-a>", { desc = "Increment numbers sequentially" })
+keymap.set("x", "g-", "g<C-x>", { desc = "Decrement numbers sequentially" })
 
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
