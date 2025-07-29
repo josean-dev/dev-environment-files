@@ -74,7 +74,7 @@ You'll also need to install extra cli tools as described in this blog post and v
 
 - sketchybar: `brew tap FelixKratz/formulae` and `brew install sketchybar`
 - jq (json command line processor): `brew install jq`
-- SF Pro Font: `brew tap homebrew/cask-fonts` and `brew install font-sf-pro`
+- SF Pro Font: `brew install font-sf-pro`
 - SF Symbols: `brew install --cask sf-symbols`:
 - Sketchybar App Font:
 
@@ -122,7 +122,6 @@ brew install --cask iterm2
 Nerd font:
 
 ```bash
-brew tap homebrew/cask-fonts
 brew install font-meslo-lg-nerd-font
 ```
 
