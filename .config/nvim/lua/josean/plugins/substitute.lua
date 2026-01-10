@@ -7,11 +7,11 @@ return {
     substitute.setup()
 
     -- set keymaps
-    local keymap = vim.keymap -- for conciseness
+    local keymap = vim.keymap
 
-    keymap.set("n", "s", substitute.operator, { desc = "Substitute with motion" })
-    keymap.set("n", "ss", substitute.line, { desc = "Substitute line" })
-    keymap.set("n", "S", substitute.eol, { desc = "Substitute to end of line" })
-    keymap.set("x", "s", substitute.visual, { desc = "Substitute in visual mode" })
+    keymap.set("n", "<leader>r", substitute.operator, { desc = "Substitute with motion" })
+    keymap.set("n", "<leader>rr", substitute.line, { desc = "Substitute line" })
+    keymap.set("n", "<leader>R", substitute.eol, { desc = "Substitute to end of line" })
+    keymap.set("x", "<leader>r", substitute.visual, { desc = "Substitute in visual mode" })
   end,
 }

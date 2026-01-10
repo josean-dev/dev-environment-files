@@ -173,6 +173,10 @@ xcode-select --install
 - [kylechui/nvim-surround](https://github.com/kylechui/nvim-surround) - manipulate surroundings with "ys", "ds", and "cs"
 - [gbprod/substitute.nvim](https://github.com/gbprod/substitute.nvim) - replace things with register with "s" and "S"
 
+#### Navigating Quickly
+
+- [folke/flash.nvim](https://github.com/folke/flash.nvim) - jump anywhere visible very quickly with minimal keystrokes
+
 #### File Explorer
 
 - [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
