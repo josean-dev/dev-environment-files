@@ -1,5 +1,6 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  branch = "master" -- using the 'master' branch, because the main branch don't support Lazy
   event = { "BufReadPre", "BufNewFile" },
   build = ":TSUpdate",
   config = function()
@@ -8,6 +9,12 @@ return {
 
     -- configure treesitter
     treesitter.setup({ -- enable syntax highlighting
+      -- add default variables
+      modules = {},
+      sync_install = false,
+      ignore_install = {},
+      auto_install = true,
+      -- enable highlighting
       highlight = {
         enable = true,
       },
